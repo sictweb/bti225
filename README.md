@@ -1,11 +1,10 @@
-# WEB222
+# BTI225
 
-Welcome to Web Programming Principles. Please refer
-to the [course outline](https://ict.senecacollege.ca/course/bti225) for an overview.
+Welcome to Web Programming Principles. Please refer to the [course outline](https://ict.senecacollege.ca/course/bti225) for an overview.
 
 ## Weekly outline
 
-The WEB222 course content is here available at [https://bti225.ca](https://bti225.ca).
+The BTI225 course content is here available at [https://bti225.ca](https://bti225.ca).
 
 | Week | Major Topics |
 |------|--------------|
