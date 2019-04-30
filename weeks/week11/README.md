@@ -1,4 +1,4 @@
-# WEB222 - Week 11
+# BTI225 - Week 11
 
 ## Suggested Readings
 
@@ -206,7 +206,7 @@ Consider how you might write a regular expression for each of the following:
 * password (alpha, number, symbols, underscore, dash, up to 256 long)
 * postal code (m5w 1e6 or M5W 1E6 or M5W1E6)
 * price ($1.50 or 1.50 or 1)
-* seneca course code (WEB222SSA)
+* seneca course code (BTI225SSA)
 
 ## JavaScript and Client-Side Validation
 

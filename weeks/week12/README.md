@@ -1,4 +1,4 @@
-# WEB222 - Week 12
+# BTI225 - Week 12
 
 ## Suggested Readings
 

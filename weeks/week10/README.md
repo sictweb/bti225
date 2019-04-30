@@ -1,4 +1,4 @@
-# WEB222 - Week 10
+# BTI225 - Week 10
 
 ## Suggested Readings
 

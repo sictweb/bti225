@@ -1,4 +1,4 @@
-# WEB222 - Week 6
+# BTI225 - Week 6
 
 ## Suggested Readings
 

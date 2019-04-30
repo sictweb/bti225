@@ -1,4 +1,4 @@
-# WEB222 - Week 3
+# BTI225 - Week 3
 
 ## Suggested Readings
 

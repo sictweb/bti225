@@ -1,4 +1,4 @@
-# WEB222 - Week 8
+# BTI225 - Week 8
 
 ## Suggested Readings
 

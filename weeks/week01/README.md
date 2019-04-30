@@ -1,4 +1,4 @@
-# WEB222 - Week 1
+# BTI225 - Week 1
 
 ## Preface
 

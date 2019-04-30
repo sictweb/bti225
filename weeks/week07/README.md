@@ -1,4 +1,4 @@
-# WEB222 - Week 7
+# BTI225 - Week 7
 
 ## From HTML to the DOM
 

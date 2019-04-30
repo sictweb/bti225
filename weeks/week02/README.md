@@ -1,4 +1,4 @@
-# WEB222 - Week 2
+# BTI225 - Week 2
 
 ## Suggested Readings
 
