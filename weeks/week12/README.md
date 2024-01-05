@@ -317,7 +317,7 @@ and artificial intelligence training.
 There are a number of endpoints we can use with this API, but we'll focus on these:
 
 * [https://dog.ceo/api/breeds/list/all](https://dog.ceo/api/breeds/list/all) - get a JSON formatted list of all breeds and sub-breeds
-* [https://dog.ceo/api/breed/hound/images/3](https://dog.ceo/api/breed/hound/images/3) - get a JSON formatted list of image URLs for hounds, returning 3 (we can ask for more or less)  In other words the URL works like this: `https://dog.ceo/api/breed/{name-of-breed}/images/{number-of-images-to-return}`
+* [https://dog.ceo/api/breed/hound/images/random/3](https://dog.ceo/api/breed/hound/images/random/3) - get a JSON formatted list of image URLs for hounds, returning 3 (we can ask for more or less)  In other words the URL works like this: `https://dog.ceo/api/breed/{name-of-breed}/random/{number-of-images-to-return}`
 
 Our goal is to do the following:
 
@@ -406,7 +406,7 @@ var response = JSON.parse(this.responseText);
 This data has two main parts:
 
 1. a `status` message, that tells us the server was successful in doing our query
-1. a `message` body, which is itself an `Object` of key/value paris, with the breed name and sub-breeds (if any) in an `Array`.
+1. a `message` body, which is itself an `Object` of key/value pairs, with the breed name and sub-breeds (if any) in an `Array`.
 
 To get all the dog breeds as a list (i.e. `Array`), we need to extract the
 `message` property, then call [`Object.keys()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
@@ -505,7 +505,7 @@ parse.  The resulting `Object` we get back looks like this:
 Once again we get a `status` and a `message` body.  This time, however,
 the `message` is already an `Array` of URLs. 
 
-### 4. Dynamically create <img> elements for all dog breed image URLs
+### 4. Dynamically create &lt;img&gt; elements for all dog breed image URLs
 
 Using the list of URLs for dog breed images from the server, we can
 easily update our page to display new images:
@@ -538,9 +538,9 @@ little code.
 
 Complete code for the example above can be found in the following files:
 
-* [dogs.html](https://github.com/sictweb/bti225/blob/master/weeks/week12/dogs.html) 
-* [dogs.js](https://github.com/sictweb/bti225/blob/master/weeks/week12/dogs.js) 
-* [styles.css](https://github.com/sictweb/bti225/blob/master/weeks/week12/styles.css)
+* [dogs.html](./dogs.html)
+* [dogs.js](./dogs.js)
+* [styles.css](./styles.css)
 
 ## XHR and Cross-Origin Requests
 
